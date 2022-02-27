@@ -7,35 +7,39 @@ import { RiServiceLine } from 'react-icons/ri'
 const Navbar = () => {
     const [isActive, setIsActive] = React.useState("#home")
 
-    React.useEffect(() => {
+    /* React.useEffect(() => {
         document.addEventListener("scroll", () => {
             if (window.scrollY < window.innerHeight) {
                 if (isActive !== "#home") {
                     setIsActive("#home")
                 }
+
             }
             if (window.scrollY > window.innerHeight && window.scrollY < window.innerHeight * 2) {
                 if (isActive !== "#about") {
                     setIsActive('#about')
                 }
+
             }
             if (window.scrollY > window.innerHeight * 2 && window.scrollY < window.innerHeight * 3) {
                 if (isActive !== "#experience") {
                     setIsActive("#experience")
                 }
+
             }
             if (window.scrollY > window.innerHeight * 3 && window.scrollY < window.innerHeight * 4) {
                 if (isActive !== "#services") {
                     setIsActive("#services")
                 }
+
             }
-            if (window.scrollY > window.innerHeight * 4 && window.scrollY < window.innerHeight * 5) {
+            if (window.scrollY > window.innerHeight * 5 && window.scrollY < window.innerHeight * 5) {
                 if (isActive !== "#contact") {
                     setIsActive("#contact")
                 }
             }
         })
-    }, [isActive])
+    }, [isActive]) */
 
     return (
         <nav className='navbar'>
