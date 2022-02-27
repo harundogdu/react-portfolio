@@ -64,6 +64,10 @@ a:hover {
     padding-bottom: 4rem;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 /* ================== GENERAL =================== */
 
 .btn-container.right {
@@ -95,12 +99,12 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-primary);
+    background: var(--color-primary-variant);
     color: var(--color-bg);
 }
 
 .btn:hover {
-    background: var(--color-primary);
+    background: var(--color-primary-variant);
     color: var(--color-bg);
 }
 
