@@ -16,6 +16,9 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    --color-dark: rgba(0, 0, 0, .6);
+    --color-dark-variant: rgba(0, 0, 0, .3);
+
     --container-lg-width: 80%;
     --container-md-width: 90%;
     --container-sm-width: 100%;
