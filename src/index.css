@@ -57,6 +57,10 @@ a:hover {
     color: var(--color-primary-variant);
 }
 
+.app {
+    padding-bottom: 4rem;
+}
+
 /* ================== GENERAL =================== */
 
 .btn-container.right {
@@ -102,4 +106,28 @@ a:hover {
 .title-h2 {
     font-size: 1.6rem;
     color: var(--color-primary);
+}
+
+.feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-gap: 1rem;
+}
+
+.feature svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: var(--color-primary);
+}
+
+
+.feature-inner h2 {
+    font-size: 1.1rem;
+    color: var(--color-white);
+}
+
+.feature-inner p {
+    font-size: 0.6rem;
+    color: var(--color-light);
 }
