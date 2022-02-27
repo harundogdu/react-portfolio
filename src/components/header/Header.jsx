@@ -8,7 +8,7 @@ import ME from 'assets/me.png'
 
 const Header = () => {
     return (
-        <header className='header'>
+        <header className='header' id='home'>
             <div className='header-header'>
                 <div className="header-title">
                     <h5>Hello I'm</h5>
