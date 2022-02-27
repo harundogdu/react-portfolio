@@ -28,9 +28,10 @@ body {
     width: var(--container-lg-width);
     margin: 0 auto;
     overflow-x: hidden;
-    background-image: url('./assets/bg-texture.png');
+    background-image: url('./assets/bg-texture-2.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 h1,

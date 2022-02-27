@@ -4,7 +4,7 @@ import { BsLinkedin, BsGithub, BsFileText } from 'react-icons/bs'
 import { HiChevronDoubleDown } from 'react-icons/hi'
 import { Button } from 'components'
 import { ButtonOutline } from 'components/shared/Button'
-
+import ME from 'assets/me.png'
 
 const Header = () => {
     return (
@@ -37,7 +37,7 @@ const Header = () => {
 
                 </div>
                 <div className="image-area">
-                    <img src="https://harundogdu.com/storage/image/me-27-02-2022_00-06-14.png" alt="Harun Doğdu" />
+                    <img src={ME} alt="Harun Doğdu" />
                 </div>
                 <a href='#!' className='scroll-down'>
                     <span>Scroll Down</span>
