@@ -71,8 +71,13 @@
     #portfolio {
         padding: 2rem 0;
     }
+
     .work-item {
         width: calc(50% - 1rem);
+    }
+
+    .work-info h3 {
+        font-size: 1rem;
     }
 }
 
@@ -80,7 +85,12 @@
     #portfolio {
         padding: 2rem 0;
     }
+
     .work-item {
         width: calc(100% - 1rem);
+    }
+
+    .work-info h3 {
+        font-size: .9rem;
     }
 }
