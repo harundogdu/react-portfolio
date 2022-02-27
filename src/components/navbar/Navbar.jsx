@@ -7,7 +7,7 @@ import { RiServiceLine } from 'react-icons/ri'
 const Navbar = () => {
     const [isActive, setIsActive] = React.useState("#home")
     return (
-        <nav>
+        <nav className='navbar'>
             <ul>
                 <li>
                     <a
