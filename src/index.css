@@ -90,6 +90,10 @@ a:hover {
     color: var(--color-primary-variant);
 }
 
+.btn-sm {
+    padding: 0.4rem 1.4rem;
+}
+
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
