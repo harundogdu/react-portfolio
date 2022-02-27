@@ -44,7 +44,11 @@ const About = () => {
                     </div>
 
                     <p className='text'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dignissimos reiciendis similique inventore, eaque at praesentium molestias nihil modi, quam delectus corrupti laudantium. Reprehenderit fugiat ex maiores, nulla natus cumque voluptates non sit impedit minima quasi, architecto iure amet quas expedita. Dolores expedita necessitatibus labore earum ex voluptates facilis nostrum?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dignissimos reiciendis similique inventore, eaque at praesentium molestias nihil modi, quam delectus corrupti laudantium. Reprehenderit fugiat ex maiores, nulla natus cumque voluptates non sit impedit minima quasi, architecto iure amet quas expedita.
+                    </p>
+
+                    <p className='text'>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dignissimos reiciendis similique inventore, eaque at praesentium molestias nihil modi, quam delectus corrupti laudantium. 
                     </p>
 
                     <Button text="Let's Talk" position="left" />

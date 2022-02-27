@@ -7,7 +7,7 @@
     flex-direction: column;
     text-align: center;
     position: relative;
-    padding: 0 0 7rem 0;
+    padding: 2rem 0;
 }
 
 .header-header {
@@ -84,7 +84,7 @@
     padding: 3rem 2rem 1rem 2rem;
     border-radius: 100% 100% 0px 0px;
     width: 100%;
-    height: 30rem;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;

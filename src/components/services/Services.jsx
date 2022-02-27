@@ -36,6 +36,10 @@ const Services = () => {
                 {
                     id: 7,
                     title: "User Interface Design",
+                },
+                {
+                    id: 8,
+                    title: "Admin Panel Interface Design",
                 }
             ]
         },
@@ -62,6 +66,10 @@ const Services = () => {
                     id: 6,
                     title: "Web Analytics",
                 },
+                {
+                    id: 8,
+                    title: "Web Applications",
+                }
             ]
         },
         {
@@ -78,6 +86,10 @@ const Services = () => {
                 {
                     id: 4,
                     title: "Mobile Maintenance",
+                },
+                {
+                    id: 5,
+                    title: "Mobile Security",
                 }
             ]
         },

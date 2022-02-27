@@ -37,4 +37,14 @@
 
 .navbar ul li a.active {
     background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.navbar ul li a.active::after {
+    content: '';
+    position: absolute;
+    width: .6rem;
+    height: 1px;
+    background-color: #fff;
+    bottom: -2px;
 }
