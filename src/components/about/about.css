@@ -87,3 +87,42 @@
     color: var(--color-light);
     margin: 2rem 0;
 }
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    #about {
+        padding: 2rem 0;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image {
+        height: auto;
+    }
+
+    .about-image img {
+        height: 16rem;
+    }
+
+    .content-container {
+        margin: 2rem 0;
+    }
+
+    .content-box{
+        height: 9rem;
+    }
+
+    .content-box p {
+        font-size: 0.7rem;
+    }
+
+    .about-content .text {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+}

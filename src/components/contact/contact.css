@@ -71,3 +71,36 @@
 .contact-form .form-group textarea {
     height: 18rem;
 }
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    .contact-container {
+        column-gap: 3rem;
+    }
+
+    .contact-box-container {
+        width: 50%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        column-gap: 2rem;
+        flex-direction: column;
+    }
+
+    .contact-box-container {
+        width: 100%;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}

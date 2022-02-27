@@ -55,3 +55,23 @@
     height: .8rem;
     margin-right: .8rem;
 }
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    #services {
+        padding: 1rem 0;
+        margin-top: 5rem;
+    }
+    .container {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .service-item {
+        width: 48%;
+        min-height: 23rem;
+    }
+}
+
+@media screen and (max-width: 768px) {}

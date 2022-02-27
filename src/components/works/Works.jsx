@@ -42,7 +42,7 @@ const Works = () => {
 
     ]
     return (
-        <section id='works'>
+        <section id='portfolio'>
             <Title title='Portfolio' text="My Recent Work" />
             <div className='works-container'>
                 {

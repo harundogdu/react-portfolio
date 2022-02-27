@@ -59,11 +59,33 @@ const Testimonials = () => {
                     loop
                     autoplay={{ delay: 1000 }}
                     fadeEffect={{ crossFade: true }}
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        480: {
+                            slidesPerView: 1,
+                            spaceBetween: 10
+                        },
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 20
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        }
+                    }}
                 >
                     {
-                        testimonials.map(testimonial => {
+                        testimonials.map((testimonial, index) => {
                             return (
-                                <SwiperSlide key={testimonial.name}>
+                                <SwiperSlide key={index}>
                                     <div className='testimonial-item'>
                                         <div className='testimonial-img'>
                                             <img src={testimonial.img} alt={testimonial.name} />
@@ -79,7 +101,7 @@ const Testimonials = () => {
                     }
                 </Swiper>
             </div>
-        </section>
+        </section >
     )
 }
 

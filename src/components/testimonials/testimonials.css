@@ -47,3 +47,17 @@
     height: .7rem;
     margin: 0 .4rem;
 }
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    #testimonials {
+        padding: 2rem 0;
+    }
+
+    .testimonial-item {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {}

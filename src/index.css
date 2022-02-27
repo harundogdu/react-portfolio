@@ -19,9 +19,9 @@
     --color-dark: rgba(0, 0, 0, .6);
     --color-dark-variant: rgba(0, 0, 0, .3);
 
-    --container-lg-width: 80%;
-    --container-md-width: 90%;
-    --container-sm-width: 100%;
+    --container-lg-width: 75%;
+    --container-md-width: 85%;
+    --container-sm-width: 95%;
 }
 
 html {
@@ -64,7 +64,7 @@ a:hover {
     margin: 0 auto;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -141,4 +141,28 @@ a:hover {
 .feature-inner p {
     font-size: 0.6rem;
     color: var(--color-light);
+}
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    .app {
+        width: var(--container-md-width);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        width: var(--container-sm-width);
+    }
+}
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
 }

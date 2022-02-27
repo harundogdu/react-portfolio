@@ -29,18 +29,6 @@ const Services = () => {
                     id: 5,
                     title: "User Research",
                 },
-                {
-                    id: 6,
-                    title: "User Experience Design",
-                },
-                {
-                    id: 7,
-                    title: "User Interface Design",
-                },
-                {
-                    id: 8,
-                    title: "Admin Panel Interface Design",
-                }
             ]
         },
         {

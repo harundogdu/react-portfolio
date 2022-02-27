@@ -20,6 +20,11 @@
     color: var(--color-dark);
     text-decoration: none;
     font-size: 1rem;
+    transition: 0.4s all ease;
+}
+
+.menu a:hover {
+    color: var(--color-bg);
 }
 
 #footer .description {
@@ -50,4 +55,19 @@
 
 #footer .social-media a:hover {
     background-color: var(--color-bg-variant);
+}
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    .menu ul {
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu ul {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
 }

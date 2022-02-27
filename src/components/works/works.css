@@ -1,4 +1,4 @@
-#works {
+#portfolio {
     padding: 4rem 0;
 }
 
@@ -63,4 +63,24 @@
     display: inline-block;
     font-size: 1rem;
     margin: 0 0.4rem;
+}
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 992px) {
+    #portfolio {
+        padding: 2rem 0;
+    }
+    .work-item {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #portfolio {
+        padding: 2rem 0;
+    }
+    .work-item {
+        width: calc(100% - 1rem);
+    }
 }
