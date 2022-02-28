@@ -49,8 +49,13 @@
 }
 
 /* ================== MEDIA QUERY =================== */
+@media screen and (max-width: 1440px) {
+    .testimonial-item {
+        margin-bottom: 3rem;
+    }
+}
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     #testimonials {
         padding: 2rem 0;
     }
@@ -60,4 +65,12 @@
     }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    #testimonials {
+        padding: 2rem 0;
+    }
+
+    .testimonial-item {
+        margin-bottom: 2rem;
+    }
+}

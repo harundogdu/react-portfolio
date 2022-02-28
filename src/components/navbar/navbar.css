@@ -48,3 +48,76 @@
     background-color: #fff;
     bottom: -2px;
 }
+
+/* ================== MEDIA QUERY =================== */
+
+@media screen and (max-width: 1024px) {
+    .navbar ul li a {
+        font-size: 1.4rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        width: 50% !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        transform: translateX(0);
+        z-index: 99;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100% !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        transform: translateX(0);
+        z-index: 99;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        width: 100% !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        transform: translateX(0);
+        z-index: 99;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 80% !important;
+        position: fixed;
+        bottom: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}

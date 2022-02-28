@@ -25,11 +25,12 @@
     row-gap: 1rem;
     cursor: pointer;
     transition: 0.4s all ease;
+    height: 26rem;
+    text-align: center;
 }
 
 .work-item:hover {
     background-color: var(--color-dark);
-
 }
 
 .work-img {
@@ -67,7 +68,7 @@
 
 /* ================== MEDIA QUERY =================== */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     #portfolio {
         padding: 2rem 0;
     }

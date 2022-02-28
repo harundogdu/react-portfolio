@@ -19,9 +19,10 @@
     --color-dark: rgba(0, 0, 0, .6);
     --color-dark-variant: rgba(0, 0, 0, .3);
 
-    --container-lg-width: 75%;
-    --container-md-width: 85%;
-    --container-sm-width: 95%;
+    --container-lg-width: 70%;
+    --container-md-width: 80%;
+    --container-sm-width: 90%;
+    --container-xs-width: 95%;
 }
 
 html {
@@ -62,6 +63,7 @@ a:hover {
     padding-bottom: 4rem;
     width: var(--container-lg-width);
     margin: 0 auto;
+    overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
@@ -145,7 +147,21 @@ a:hover {
 
 /* ================== MEDIA QUERY =================== */
 
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+
+    .app {
+        width: var(--container-md-width);
+    }
+}
+
 @media screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
     .app {
         width: var(--container-md-width);
     }
@@ -157,12 +173,29 @@ a:hover {
     }
 }
 
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 13x;
+    }
+
+    .app {
+        width: var(--container-xs-width);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+
+    .app {
+        width: var(--container-xs-width);
+    }
+}
+
 /* ================== MEDIA QUERY =================== */
 
-@media screen and (max-width: 992px) {
-    
-}
+@media screen and (max-width: 992px) {}
 
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 768px) {}
