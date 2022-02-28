@@ -218,10 +218,13 @@
 @media screen and (max-width: 576px) {
     .header {
         padding: 2rem 0;
+        justify-content: center;
+        row-gap: 1.4rem;
     }
 
     .header-header {
         gap: 1rem;
+        height: max-content;
     }
 
     .header-title h1 {
@@ -241,7 +244,7 @@
     }
 
     .header-socials {
-        bottom: 5%;
+        bottom: 15%;
         left: 0%;
     }
 
@@ -250,8 +253,8 @@
     }
 
     .scroll-down {
-        bottom: 10%;
-        right: -10%;
+        bottom: 20%;
+        right: -8%;
     }
 
     .image-area {
@@ -267,10 +270,13 @@
 @media screen and (max-width: 375px) {
     .header {
         padding: 1rem 0;
+        justify-content: center;
+        row-gap: 4.5rem;
     }
 
     .header-header {
         gap: .8rem;
+        height: max-content;
     }
 
     .header-title h1 {
@@ -290,7 +296,7 @@
     }
 
     .header-socials {
-        bottom: 5%;
+        bottom: 15%;
         left: 0%;
     }
 
@@ -299,7 +305,7 @@
     }
 
     .scroll-down {
-        bottom: 10%;
+        bottom: 20%;
         right: -10%;
     }
 
