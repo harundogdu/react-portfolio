@@ -51,7 +51,7 @@
 /* ================== MEDIA QUERY =================== */
 @media screen and (max-width: 1440px) {
     .testimonial-item {
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 }
 
@@ -61,7 +61,7 @@
     }
 
     .testimonial-item {
-        margin-bottom: 3rem;
+        margin-bottom: 4em;
     }
 }
 
@@ -71,6 +71,6 @@
     }
 
     .testimonial-item {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 }
